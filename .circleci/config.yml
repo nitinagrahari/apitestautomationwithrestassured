@@ -18,11 +18,16 @@ jobs:
       - run:
           name: Build
           command: mvn -B -DskipTests clean package
+     environment:
+       TEST_REPORTS: /tmp/test-reports
       # Then run your tests!
       - run:
           name: Test
-          command: mvn test
-                   mkdir -p /test-output/Report/test/ExtentReport.html
+          command: |
+                   set -xu
+                   mkdir -p ${TEST_REPORTS}
+                   mvn test                   
+                   cp test-output/Report/test/*.html ${TEST_REPORTS}
 
 workflows:
   # Below is the definition of your workflow.
