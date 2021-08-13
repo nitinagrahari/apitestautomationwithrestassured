@@ -1,6 +1,8 @@
 package com.practicetest.apiTestAutomation.utils;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -35,7 +37,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 		private static String getResultPath() {
 
-			resultpath = "test";//new SimpleDateFormat("yyyy-MM-dd hh-mm.ss").format(new Date());
+			resultpath = "test_" + new SimpleDateFormat("yyyy-MM-dd hh-mm.ss").format(new Date());
 			if (!new File(resultpath).isDirectory()) {
 				new File(resultpath);
 			}
