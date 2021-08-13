@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-13T01:53:22 CEST" name="Default suite" finished-at="2021-08-13T01:53:25 CEST" duration-ms="2947">
+  <suite started-at="2021-08-13T03:31:21 CEST" name="Default suite" finished-at="2021-08-13T03:31:25 CEST" duration-ms="4528">
     <groups>
     </groups>
-    <test started-at="2021-08-13T01:53:22 CEST" name="Default test" finished-at="2021-08-13T01:53:25 CEST" duration-ms="2947">
-      <class name="com.practicetest.apiTestAutomation.tests.TestGETComments">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETComments@389c4eb1]" started-at="2021-08-13T01:53:22 CEST" name="init" finished-at="2021-08-13T01:53:23 CEST" duration-ms="1004" status="PASS">
+    <test started-at="2021-08-13T03:31:21 CEST" name="Default test" finished-at="2021-08-13T03:31:25 CEST" duration-ms="4528">
+      <class name="com.practicetest.apiTestAutomation.tests.TestGETPosts">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETPosts@f99f5e0]" started-at="2021-08-13T03:31:21 CEST" name="init" finished-at="2021-08-13T03:31:22 CEST" duration-ms="1508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verifyNoCommentsAvailableForInvalidPostID()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETComments@389c4eb1]" started-at="2021-08-13T01:53:23 CEST" name="verifyNoCommentsAvailableForInvalidPostID" finished-at="2021-08-13T01:53:25 CEST" duration-ms="1736" status="PASS">
+        <test-method signature="verifyNoPostsAvailableForInvalidUser()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETPosts@f99f5e0]" started-at="2021-08-13T03:31:22 CEST" name="verifyNoPostsAvailableForInvalidUser" finished-at="2021-08-13T03:31:25 CEST" duration-ms="2735" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNoCommentsAvailableForInvalidPostID -->
-        <test-method signature="verifyNotFoundStatusForInvalidEndpointForCommentsService()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETComments@389c4eb1]" started-at="2021-08-13T01:53:25 CEST" name="verifyNotFoundStatusForInvalidEndpointForCommentsService" finished-at="2021-08-13T01:53:25 CEST" duration-ms="103" status="PASS">
+        </test-method> <!-- verifyNoPostsAvailableForInvalidUser -->
+        <test-method signature="verifyNotFoundStatusForInvalidEndpointForPostsService()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETPosts@f99f5e0]" started-at="2021-08-13T03:31:25 CEST" name="verifyNotFoundStatusForInvalidEndpointForPostsService" finished-at="2021-08-13T03:31:25 CEST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNotFoundStatusForInvalidEndpointForCommentsService -->
-      </class> <!-- com.practicetest.apiTestAutomation.tests.TestGETComments -->
+        </test-method> <!-- verifyNotFoundStatusForInvalidEndpointForPostsService -->
+      </class> <!-- com.practicetest.apiTestAutomation.tests.TestGETPosts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
