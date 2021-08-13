@@ -37,7 +37,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 		private static String getResultPath() {
 
-			resultpath = "test_" + new SimpleDateFormat("yyyy-MM-dd hh-mm.ss").format(new Date());
+			resultpath = "test";
 			if (!new File(resultpath).isDirectory()) {
 				new File(resultpath);
 			}
@@ -76,7 +76,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 		public void onStart(ITestContext context) {
 			System.out.println(ReportLocation + "  ReportLocation");
-			reports = new ExtentReports(ReportLocation + "ExtentReport.html");
+			reports = new ExtentReports(ReportLocation + "ExtentReport_" + new SimpleDateFormat("yyyy-MM-dd hh-mm.ss").format(new Date()) +".html");
 			test = reports.startTest("");
 
 		}
