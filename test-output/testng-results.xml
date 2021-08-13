@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-13T17:08:25 CEST" name="JSONPLACE HOLDER API Automation Test Suite" finished-at="2021-08-13T17:08:30 CEST" duration-ms="4619">
+    <groups>
+    </groups>
+    <test started-at="2021-08-13T17:08:25 CEST" name="JSONPLACE HOLDER Service Test Cases" finished-at="2021-08-13T17:08:30 CEST" duration-ms="4619">
+      <class name="com.practicetest.apiTestAutomation.tests.TestIntegration">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestIntegration@378542de]" started-at="2021-08-13T17:08:25 CEST" name="init" finished-at="2021-08-13T17:08:26 CEST" duration-ms="865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEmailformatInComments()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestIntegration@378542de]" started-at="2021-08-13T17:08:26 CEST" name="verifyEmailformatInComments" finished-at="2021-08-13T17:08:29 CEST" duration-ms="3058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailformatInComments -->
+      </class> <!-- com.practicetest.apiTestAutomation.tests.TestIntegration -->
+      <class name="com.practicetest.apiTestAutomation.tests.TestGETComments">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETComments@69e1dd28]" started-at="2021-08-13T17:08:29 CEST" name="init" finished-at="2021-08-13T17:08:29 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyNoCommentsAvailableForInvalidPostID()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETComments@69e1dd28]" started-at="2021-08-13T17:08:29 CEST" name="verifyNoCommentsAvailableForInvalidPostID" finished-at="2021-08-13T17:08:30 CEST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoCommentsAvailableForInvalidPostID -->
+        <test-method signature="verifyNotFoundStatusForInvalidEndpointForCommentsService()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETComments@69e1dd28]" started-at="2021-08-13T17:08:30 CEST" name="verifyNotFoundStatusForInvalidEndpointForCommentsService" finished-at="2021-08-13T17:08:30 CEST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotFoundStatusForInvalidEndpointForCommentsService -->
+      </class> <!-- com.practicetest.apiTestAutomation.tests.TestGETComments -->
+      <class name="com.practicetest.apiTestAutomation.tests.TestGETPosts">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETPosts@3738449f]" started-at="2021-08-13T17:08:29 CEST" name="init" finished-at="2021-08-13T17:08:29 CEST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyNoPostsAvailableForInvalidUser()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETPosts@3738449f]" started-at="2021-08-13T17:08:29 CEST" name="verifyNoPostsAvailableForInvalidUser" finished-at="2021-08-13T17:08:29 CEST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoPostsAvailableForInvalidUser -->
+        <test-method signature="verifyNotFoundStatusForInvalidEndpointForPostsService()[pri:0, instance:com.practicetest.apiTestAutomation.tests.TestGETPosts@3738449f]" started-at="2021-08-13T17:08:29 CEST" name="verifyNotFoundStatusForInvalidEndpointForPostsService" finished-at="2021-08-13T17:08:29 CEST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNotFoundStatusForInvalidEndpointForPostsService -->
+      </class> <!-- com.practicetest.apiTestAutomation.tests.TestGETPosts -->
+    </test> <!-- JSONPLACE HOLDER Service Test Cases -->
+  </suite> <!-- JSONPLACE HOLDER API Automation Test Suite -->
+</testng-results>
