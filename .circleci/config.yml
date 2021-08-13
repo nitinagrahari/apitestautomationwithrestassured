@@ -25,15 +25,15 @@ jobs:
       # Then run your tests!
       - run:
           name: Test
-          command: |
-                   set -xu
-                   mkdir -p ${TEST_REPORTS}
-                   mvn package                   
-                   cp test-output/Report/test/*.html ${TEST_REPORTS}
+          command: mvn package
+                   #set -xu
+                   #mkdir -p ${TEST_REPORTS}
+                                     
+                   #cp test-output/Report/test/*.html ${TEST_REPORTS}
                    
        # Upload test results
       - store_test_results:
-          path: test-output/Report/test
+          path: test-output/Report/test/*.html
           
       - store_artifacts:
           path: test-output/Report/test
