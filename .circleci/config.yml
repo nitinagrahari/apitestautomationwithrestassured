@@ -30,6 +30,10 @@ jobs:
                    mkdir -p ${TEST_REPORTS}
                    mvn test                   
                    cp test-output/Report/test/*.html ${TEST_REPORTS}
+                   
+       # Upload test results
+      - store_test_results:
+          path: /tmp/test-reports
 
 workflows:
   # Below is the definition of your workflow.
