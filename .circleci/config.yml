@@ -22,6 +22,7 @@ jobs:
       - run:
           name: Test
           command: mvn test
+                   mkdir -p /test-output/Report/test/ExtentReport.html
 
 workflows:
   # Below is the definition of your workflow.
