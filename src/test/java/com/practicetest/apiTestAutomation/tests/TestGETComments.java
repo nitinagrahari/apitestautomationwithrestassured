@@ -1,7 +1,5 @@
 package com.practicetest.apiTestAutomation.tests;
 
-import static org.testng.Assert.assertFalse;
-import static org.testng.Assert.assertNotNull;
 import static org.testng.Assert.assertTrue;
 
 import java.util.ArrayList;
@@ -11,7 +9,7 @@ import org.testng.annotations.Test;
 import com.practicetest.apiTestAutomation.helpers.CommentsServiceHelper;
 import com.practicetest.apiTestAutomation.model.Comments;
 
-
+//@Listeners(ExtentReportListner.class)
 public class TestGETComments {
 	
 	private CommentsServiceHelper commentsServiceHelper;

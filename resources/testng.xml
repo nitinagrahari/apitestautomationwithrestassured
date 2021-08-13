@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JSONPLACE HOLDER API Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.practicetest.apiTestAutomation.utils.ExtentReportListner" />
+	</listeners>
+
+
+	<test name="JSONPLACE HOLDER Service Test Cases">
+		<classes>
+			<class name="com.practicetest.apiTestAutomation.tests.TestIntegration"></class>
+			<class name="com.practicetest.apiTestAutomation.tests.TestGETPosts"></class>
+			<class name="com.practicetest.apiTestAutomation.tests.TestGETComments"></class>
+
+		</classes>
+	</test>
+</suite>

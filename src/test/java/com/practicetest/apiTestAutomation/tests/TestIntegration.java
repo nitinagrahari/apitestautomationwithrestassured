@@ -4,15 +4,12 @@ package com.practicetest.apiTestAutomation.tests;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertNotNull;
-import static org.testng.Assert.assertNull;
-import static org.testng.Assert.assertTrue;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map.Entry;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -23,8 +20,9 @@ import com.practicetest.apiTestAutomation.model.Comments;
 import com.practicetest.apiTestAutomation.model.Posts;
 import com.practicetest.apiTestAutomation.utils.CommonUtils;
 
-import io.restassured.response.Response;
 
+
+//@Listeners(ExtentReportListner.class)
 public class TestIntegration {
 
 	private UserPostsServiceHelper userPostsServiceHelper;

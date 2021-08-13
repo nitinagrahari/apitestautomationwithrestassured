@@ -5,7 +5,7 @@
     <classes>
       <class name="com.practicetest.apiTestAutomation.tests.TestGETPosts">
         <methods>
-          <include name="verifyNotFoundStatusForInvalidEndpoint"/>
+          <include name="verifyNoPostsAvailableForInvalidUser"/>
           <include name="init"/>
         </methods>
       </class> <!-- com.practicetest.apiTestAutomation.tests.TestGETPosts -->
