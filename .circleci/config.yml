@@ -33,7 +33,7 @@ jobs:
                    
        # Upload test results
       - store_test_results:
-          path: test-output/Report/test/*.html
+          path: ${TEST_REPORTS}
           
       - store_artifacts:
           path: test-output/Report/test
